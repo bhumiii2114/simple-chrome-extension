@@ -82,10 +82,20 @@ simple-chrome-extension/
 
 ---
 
-## 🛠 Features (Example)
 
-> You can update this section depending on what your extension does.
+## 🛠 Features
 
-- [x] Shows a popup when clicked
-- [x] Simple button to perform an action (e.g., change tab background color)
-- [x] Clean and minimal interface
+* 🔍 **Wikipedia Lookup via Right-Click**
+  Instantly search Wikipedia for any selected word or phrase using the browser's context menu.
+
+* ⚡ **Fast & Lightweight**
+  No heavy UI or popup — just select, right-click, and go.
+
+* 🌐 **Works on Any Website**
+  Supports text selection from any webpage you visit.
+
+* 🧭 **Automatic Tab Redirection**
+  Opens the relevant Wikipedia article in a **new tab** without disrupting your current page.
+
+* 🧱 **Simple Codebase**
+  Built with just HTML and JavaScript using Chrome’s `contextMenus` API and `manifest v3`.
