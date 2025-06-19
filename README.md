@@ -55,9 +55,7 @@ Highlight `Machine Learning` on any website → Right-click → Click **“Look 
 ```
 simple-chrome-extension/
 ├── manifest.json          # Configuration file for the extension
-├── popup.html             # UI shown when the extension icon is clicked
-├── popup.js               # Logic for the popup
-├── style.css              # Styling for the popup
+├── lookup.js              # Logic for the extension
 ├── icons/                 # Extension icons (16x16, 48x48, 128x128)
 └── README.md              # You're here!
 ```
@@ -80,7 +78,7 @@ simple-chrome-extension/
 
 5. Your extension will now appear in the Chrome toolbar! 🎉
 
-6. Select and highlight the text and right click to use the extension.
+6. Select and highlight the text and right-click to use the extension.
 
 ---
 
