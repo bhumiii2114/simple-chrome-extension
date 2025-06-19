@@ -1,0 +1,17 @@
+{
+    "name":"Wiki LookUp",
+    "description":"Highlight the text you want to look up and click the option to search for it on Wikipedia.",
+    "version":"1.0",
+    "manifest_version":3,
+    "background":{
+        "service_worker":"lookup.js"
+    },
+    "permissions": [
+        "tabs",
+        "contextMenus"
+    ],
+    "icons":{
+        "16":"icon.jpeg"
+    }
+     
+}
