@@ -1,14 +1,17 @@
-chrome.runtime.onInstalled.addListener(()=>{
-    var contextMenuItem={
-        "id":"Wiki",
-        "title":"Wikipedia Search",
-        "contexts":["Selection"]
-    }
-    chrome.contextMenus.create(contextMenuItem);
+chrome.runtime.onInstalled.addListener(() => {
+    chrome.contextMenus.removeAll(() => {
+        const contextMenuItem = {
+            id: "Wiki",
+            title: "Wikipedia Search",
+            contexts: ["selection"]  
+        };
 
-    chrome.contextMenus.onClicked.addListener(function(info, tab){
-    var newURL = "http://en.wikipedia.org/wiki/" + info.selectionText;
-    chrome.tabs.create({ url: newURL });
-})
+        chrome.contextMenus.create(contextMenuItem);
+    });
 
+    // ✅ Step 3: Handle the menu click
+    chrome.contextMenus.onClicked.addListener((info, tab) => {
+        const newURL = "https://en.wikipedia.org/wiki/" + info.selectionText;
+        chrome.tabs.create({ url: newURL });
+    });
 });

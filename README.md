@@ -80,22 +80,23 @@ simple-chrome-extension/
 
 5. Your extension will now appear in the Chrome toolbar! 🎉
 
----
+6. Select and highlight the text and right click to use the extension.
 
+---
 
 ## 🛠 Features
 
-* 🔍 **Wikipedia Lookup via Right-Click**
+- 🔍 **Wikipedia Lookup via Right-Click**
   Instantly search Wikipedia for any selected word or phrase using the browser's context menu.
 
-* ⚡ **Fast & Lightweight**
+- ⚡ **Fast & Lightweight**
   No heavy UI or popup — just select, right-click, and go.
 
-* 🌐 **Works on Any Website**
+- 🌐 **Works on Any Website**
   Supports text selection from any webpage you visit.
 
-* 🧭 **Automatic Tab Redirection**
+- 🧭 **Automatic Tab Redirection**
   Opens the relevant Wikipedia article in a **new tab** without disrupting your current page.
 
-* 🧱 **Simple Codebase**
+- 🧱 **Simple Codebase**
   Built with just HTML and JavaScript using Chrome’s `contextMenus` API and `manifest v3`.
